@@ -33,6 +33,7 @@ module.exports.handler = middy(async (event, context) => {
     statusCode: 200,
     body: JSON.stringify(restaurants),
   };
+
   return response;
 })
   .use(
